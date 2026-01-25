@@ -1,0 +1,4 @@
+load("/Users/chiara/EUTOPS Team Dropbox/Chiara Herzog/ffq/eutopsFQ/data/eutopsFQ_db.rda")
+ls
+ls()
+eutopsFQ_db

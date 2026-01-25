@@ -1,0 +1,25 @@
+Package: eutopsFQ
+Type: Package
+Title: Food Quotient, Dietary Index, and Nutrient Analysis for eutops FFQ data 
+Version: 0.1.0
+Authors@R: c(
+    person("Chiara", "Herzog", email = "chiaraherzog@outlook.com", role = c("aut", "cre"))
+  )
+Description: Prepares data from the food frequency questionnaire implemented
+    in the LIFE/SUN studies.  Functions from this package use answers from the
+    FFQ to generate  estimates of daily consumed micronutrients, calories,
+    macronutrients on  an individual level.
+    The package also calculates food quotients and select dietary indices. 
+    Foodquotient calculation is an often tedious step in the calculation of 
+    total human energy expenditure (TEE) using the doubly labeled water method, 
+    which is the gold standard for measuring TEE. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)
+Imports: 
+    dplyr,
+    tibble,
+    stats
